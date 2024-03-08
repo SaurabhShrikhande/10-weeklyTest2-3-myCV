@@ -1,8 +1,10 @@
- function Sidebar(){
+import mypic from "./mypic.jpg"
+
+function Sidebar(){
     return(
     <div style={{}}>
         <div style={{width:"14vw", backgroundColor:"#218091" , padding:"20px" , borderRadius:"20px", display:"flex", flexDirection:"column", alignItems:"center", color:"white" ,position:"sticky" , top:"50px"}}>
-           <img width="80%" style={{borderRadius:"20px"}} b src="https://media-bom1-2.cdn.whatsapp.net/v/t61.24694-24/404082087_223429110774496_1985121210998491970_n.jpg?ccb=11-4&oh=01_AdTL2TUXmKQoPMr4ZR3CoCYgz4qMcPlPigHZ4yRnC-Nw5g&oe=659D9FF9&_nc_sid=e6ed6c&_nc_cat=106" alt="" />
+           <img width="80%" style={{borderRadius:"20px"}} b src={mypic} alt="" />
            <h4 style={{color:"white"}}>Saurabh Shrikhande</h4>
            <h6 style={{backgroundColor:"#215968", marginTop:"0", color:"white", padding:"10px 25px" , borderRadius:"25px", boxShadow:"0 0 10px  white" }}>Hello, World !</h6>
 

@@ -1,3 +1,8 @@
+import node from './node.png'
+import express from './express.png'
+import mongodb from './mongodb.png'
+import git from './GitHub.png'
+
 export default function About(){
     return(
         <div style={{color:"white", padding:"20px" }} >
@@ -36,15 +41,21 @@ export default function About(){
             <h2 style={{textAlign:"center"}}>Programming Languages</h2>
             <div style={{display:"flex",  gap:"15px" ,backgroundColor:"#22687A", padding:"20px" , borderRadius:"20px"}}> 
                <div>
+
+                  <h4> Express <span style={{fontWeight:"200"}}>75%</span> </h4>
+
+                   <h4> node js <span style={{fontWeight:"200"}}>75%</span> </h4>
+
+                  <h4>React js <span style={{fontWeight:"200"}}>75%</span> </h4>
+                 
                   <h4>JavaScript <span style={{fontWeight:"200"}}>80%</span> </h4>
-                
-                  <h4>React <span style={{fontWeight:"200"}}>75%</span> </h4>
                
                   <h4>CSS <span style={{fontWeight:"200"}}>95%</span> </h4>
 
                   <h4>HTML <span style={{fontWeight:"200"}}>100%</span> </h4>
                   
                   <h4>Java <span style={{fontWeight:"200"}}>75%</span> </h4>
+
 
                </div>
 
@@ -65,14 +76,17 @@ export default function About(){
             </div>
 
             <h2 style={{textAlign:"center"}}>Development Skills</h2>
-            <div style={{display:"flex",  gap:"15px" ,backgroundColor:"#22687A", padding:"40px" , borderRadius:"20px" }}> 
-            <div>
+            <div style={{display:"flex",flexWrap:"nowrap" , overflowX:"scroll", width:"55vw" , gap:"20px" ,backgroundColor:"#22687A", padding:"40px" , borderRadius:"20px" }}> 
+           
                <img width="140" src="https://oktayshakirov.com/assets/images/html.png" alt=""/>
                <img width="140" src= "https://oktayshakirov.com/assets/images/css.png" alt = ""></img>
                <img width="140" src= "https://oktayshakirov.com/assets/images/java-script.png" alt = ""></img>
                <img width="140" src= "https://oktayshakirov.com/assets/images/react.png" alt = ""></img>
-               <img width="140" src="https://oktayshakirov.com/assets/images/github.png" alt=""/>
-              </div>
+               <img width="140" src={git} alt=""/>
+               <img width="140" src={node} alt=""/>
+               <img width="140" style={{padding:"10px"}} src={express} alt=""/>
+               <img width="140" src={mongodb} alt=""/>
+             
             </div>
 
 
